@@ -1,12 +1,9 @@
 ## l fantastic's blender work
 
 
-
+Add a video here:
 {% include vimeo.html id=“56118179” %}
 
-
-
-## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/lfantastic/lfantastic.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
