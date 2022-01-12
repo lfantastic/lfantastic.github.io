@@ -1,4 +1,4 @@
-# Leo's Fun projects
+[comment]: <> (# Leo's Fun projects)
 
 {% include vimeo.html  %}
 
