@@ -1,6 +1,6 @@
+# Leo's Fun projects
 
-{% include vimeo.html videoid="664509878?h=b981075110" %}
-
-[comment]: <> ({% include vimeo.html  %})
+## Leo He's 3D Computer Graphics Projects
+{% include vimeo.html  %}
 
 
