@@ -1,15 +1,16 @@
 
 
-<style type="text/css">
-.hr3 {
-  border: 0;
-  height: 2px;
-  background-image: linear-gradient(to right, transparent, #CCC, transparent);
-}
+<!--<style type="text/css">-->
+<!--.hr3 {-->
+<!--  border: 0;-->
+<!--  height: 2px;-->
+<!--  background-image: linear-gradient(to right, transparent, #CCC, transparent);-->
+<!--}-->
 
 
 
-</style>
+<!--</style>-->
+{% assign pen = include %}
 
 
 <div class="videoContainer">
@@ -37,18 +38,20 @@
 <!--    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/664628535?h=d6acbc32e8&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="A Happy Christmas Day"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>-->
 
 
-    <hr class="hr3">
+<!--    <hr class="hr3">-->
 <!--    <hr class="hr3">-->
 <!--    <hr class="hr3">-->
 <!--    Test include videoid (without parseing videoid)-->
 <!--    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/664509878?h=b981075110&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="A Happy Christmas Day"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>-->
 
-    <hr class="hr3">
+<!--    <hr class="hr3">-->
     Test include videoid (parseing videoid)
     {{include}}
     {{include.videoid}}
+    {{pen.videoid}}
 
-    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/{{include.videoid}}&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="A Happy Christmas Day"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/{{pen.videoid}}&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="A Happy Christmas Day"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 
 </div>
